@@ -1,12 +1,12 @@
-import Footer from "./footer";
-import Header from "./header";
-import "./css/basewrapper.css";
+import Footer from './footer';
+import Header from './header';
+import './css/basewrapper.css';
 
 export default function BaseWrapper({ children }) {
   return (
-    <div className="BaseWrapper">
+    <div className="htmlWrapper">
       <Header />
-      <div>{children}</div>
+      <div className="bodyContent">{children}</div>
       <Footer />
     </div>
   );
