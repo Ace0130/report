@@ -1,12 +1,11 @@
-import Header from "./ui/header";
-import Footer from "./ui/footer";
+import Main from './page/main';
+import BaseWrapper from './ui/basewrapper';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
+    <BaseWrapper>
+      <Main />
+    </BaseWrapper>
   );
 };
 

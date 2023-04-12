@@ -1,3 +1,21 @@
-.BaseWrapper {
+html,
+body,
+.htmlWrapper {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
   display: flex;
+  flex-direction: column;
+}
+
+.bodyContent {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-bottom: 80px;
 }
